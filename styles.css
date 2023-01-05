@@ -1,6 +1,33 @@
 body {
     background-color: bisque;
+    text-align: center;
+}
+.list {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .headline {
     color: brown;
+    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif
+}
+.kay-image {
+    border-radius: 80px;
+    padding: 20px;
+    width: 859px;
+    height: 458px;
+}
+.first,
+.second,
+.third {
+    border-radius: 10px;
+}
+.first {
+    border: 5px solid gold; 
+}
+.second{
+    border: 5px solid silver;
+}
+.third {
+    border: 5px solid #CD7F32;
 }
